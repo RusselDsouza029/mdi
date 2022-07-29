@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+/* below style will be applied to all sroll in dom */
+*::-webkit-scrollbar {
+  overflow: auto;
+  width: 5px;
+  height: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(226, 226, 226);
+  width: 3px;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* div element with logo white and background black */
+.div-h1 {
+  background-color: black;
   color: white;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* h1 element style with logo */
+.top-head {
+  font-family: "Monoton", cursive;
+  font-size: 70px;
+  text-align: center;
 }

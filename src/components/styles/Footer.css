@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Water+Brush&display=swap");
+
+/* parent footer element */
+.footer--parent {
+  background-color: black;
+  color: white;
+  height: auto;
+  position: relative;
+  bottom: 0px;
+  display: inline-block;
+  width: 100%;
+  /* display: inline-flex; */
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* typography component style with mdi logo */
+.typo__mdi__logo {
+  font-size: 40px;
+  font-family: "Monoton", cursive;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}

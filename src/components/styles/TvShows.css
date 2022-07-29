@@ -1,0 +1,25 @@
+/* image poster style */
+.img__poster {
+    border-radius: 10px;
+    height: 400px;
+  }
+  
+  /* typography text style */
+  .typo__text {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  /* cast img style */
+  .img__cast {
+    border-radius: 10px;
+  }
+  
+  /* media query for mobile and tablet */
+  @media (max-width: 768px) {
+    /* typography text style */
+    .typo__text {
+      font-size: 20px !important;
+    }
+  }
+  

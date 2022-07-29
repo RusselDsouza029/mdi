@@ -1,0 +1,17 @@
+/* star rating style */
+.div__star {
+    border: 1px solid white;
+    background: white;
+    padding: 3px;
+    border-radius: 12px;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  /* card info style */
+  .card__media:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+  }
+  

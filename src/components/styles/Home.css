@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
+/* div with title of popular movie text and popular shows text */
+.div-title {
+  text-align: center;
+}
+
+/* hr element style between popular movie text and popular shows text */
+.hr-bottom {
+  width: 123px;
+  background: #1a7ed1;
+  margin-bottom: 50px;
+  height: 2px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+  .div-movie-adjust {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .div-movie-adjust {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 426px) {
+  .div-movie-adjust {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
