@@ -40,7 +40,6 @@ const PopularMovies = ({ movie }) => {
             position: "relative",
             transition: "all .5s",
           }}
-          className="card__info"
         >
           {/* card media with img from API */}
           <CardMedia
@@ -48,7 +47,7 @@ const PopularMovies = ({ movie }) => {
             height="400"
             width="250"
             image={getImgPath(movie.poster_path)}
-            // className="card__info"
+            className="card__media"
           />
           <CardContent
             style={{

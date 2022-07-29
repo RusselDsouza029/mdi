@@ -75,7 +75,7 @@ const Footer = () => {
         </Tooltip>
         {/* github icon and link */}
         <Tooltip title="Github">
-          <a href="https://github.com/RusselDsouza029" target="_blank">
+          <a href="https://github.com/RusselDsouza029/mdi" target="_blank">
             <GitHubIcon
               className="icons"
               sx={{
